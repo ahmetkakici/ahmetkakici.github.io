@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <title>{{ page.title }}</title>
-{% if page.description %}<meta name="description" content="{{page.description}}" />{% else %}<meta name="description" content="Karl Seguin's Blog - A mix of coding and creative writing" />{% endif %}
+{% if page.description %}<meta name="description" content="{{page.description}}" />{% else %}<meta name="description" content="Ahmet Kakıcı - Blog" />{% endif %}
 <link href="/assets/site.css" rel="stylesheet">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/assets/rainbow.js"></script>
 <link href="/atom.xml" rel="alternate" type="application/atom+xml">
-<script>
-  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-31013180-1']); _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 
 <a href=/ id=home>home</a>
-<div id=byline>{{ page.date | date_to_string }} - By Karl Seguin</div>
+<div id=byline>{{ page.date | date_to_string }} - By Ahmet Kakıcı</div>
 <h1 id=title>{{ page.title  | xml_escape }}</h1>
 
 <div id="a">{{ content }}</div>
 {% if page.tags.size > 0 %}<div id="tags">post {% if page.tags.size == 1 %}tag{% else %}tags{% endif %}: {% for tag in page.tags %}<a href="/#{{tag}}">{{tag}}</a>{% endfor %}</div>{% endif %}
-<div id="comments" class="section">
-  <div id="disqus_thread"></div>
-  <a href="http://disqus.com" class="dsq-brlink attribution">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-<script  type="text/javascript">
-{% if page.disqus_id %}var disqus_identifier = {{ page.disqus_id }};{% else %}var disqus_identifier = '{{ page.url }}';{% endif %}
-(function() {
- var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
- dsq.src = 'http://karlseguin.disqus.com/embed.js';
- (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=karlseguin">comments powered by Disqus.</a></noscript>
