@@ -18,7 +18,7 @@ tags:
   - safari
   - webkit
 ---
-Google Chome piyasaya bomba gibi girdi. Binlerce (veya milyonlarca) internet kullanıcısı tarafından heyecan ile indirildi, denendi. Sonrasında yorumlar yavaş yavaş forumlara bloglara düşmeye başladı. Hızlıydı, güzeldi, çirkindi, IE daha güzel, FireFox&#8217;a benzemiş vs derken bir Chrome rüzgarı aldı gitti. Ben o tarz bir yazı yazmayacağım çünkü henüz Chrome kullanmadım. Ben size Chrome&#8217;un özünü yazacağım :)
+Google Chome piyasaya bomba gibi girdi. Binlerce (veya milyonlarca) internet kullanıcısı tarafından heyecan ile indirildi, denendi. Sonrasında yorumlar yavaş yavaş forumlara bloglara düşmeye başladı. Hızlıydı, güzeldi, çirkindi, IE daha güzel, FireFox&#8217;a benzemiş vs derken bir Chrome rüzgarı aldı gitti. Ben o tarz bir yazı yazmayacağım çünkü henüz Chrome kullanmadım. Ben size Chrome&#8217;un özünü yazacağım.
 
 <!--more-->
 
@@ -30,7 +30,7 @@ Yazıma Chorme kullanan kişilerin &#8216;çoğumuzun yaptığı gibi&#8217; oku
 
 Bir çoğumuz bu şartları okumadık keza okuyanların da bir kısmı muhtemelen deneme amaçlı kabul etmiştir. Zira arama motoru, reklamları, mail hizmeti ve diğer tüm hizmetleri sayesinde bizler hakkında **çok** fazla bilgi topluyor. Varsın Chrome ile de biraz bilgi toplasın.
 
-Bu kullanım şartları konusu biraz göze batmaya başlamş olacak ki Google ufak bir düzenleme yapıp yeni bir anlaşma ile karşımıza çıktı :)
+Bu kullanım şartları konusu biraz göze batmaya başlamş olacak ki Google ufak bir düzenleme yapıp yeni bir anlaşma ile karşımıza çıktı.
 
 Ama bazı durumlar var ki bilgi toplamaktan da zararlı olabiliyor(!). Chorme, Safari tarafından da kullanılan WebKit tarayıcı motorunu kullanıyor diye Safari&#8217;de bilinen açıklar hemen Chorme üzerinde de denendi. Bu açıklardan biri de *Carpet-Bomb*. Bu açık sayesinde Windows XP veya Vista üzerinde Safari kullananların bilgisayarlarına istemsiz olarak dosya aktarılıyordu. Nasıl mı ? İşte böyle:
 
@@ -47,4 +47,4 @@ Chrome&#8217;daki bir diğer sorun da aşağıdaki gibi girilen bağlantılarda 
 
 > <pre id="line70">&lt;<span class="start-tag">a</span><span class="attribute-name"> href</span>=<span class="attribute-value">"EVIL:%"</span>&gt;HERE&lt;/<span class="end-tag">a</span>&gt;</pre>
 
-Chrome&#8217;u kullanmadan edindiğim bilgiler bunlar. Açıkçası bu kısa süre içerisinde denemeyi de düşünmüyorum çünkü FireFox ve eklentilerimle gayet mutluyum ve beta tester olmayacak kadar da pinpirikliyim :)
+Chrome&#8217;u kullanmadan edindiğim bilgiler bunlar. Açıkçası bu kısa süre içerisinde denemeyi de düşünmüyorum çünkü FireFox ve eklentilerimle gayet mutluyum ve beta tester olmayacak kadar da pinpirikliyim.

@@ -26,8 +26,8 @@ Yazılım olsun olmasın bir ürünün tutulması için illa daha önceden yapı
 
 Belki bu konuda klasik bir örnek olacak ancak durumu gayet iyi özetliyor; Google&#8217;dan önce de arama motorları bulunuyordu lakin iki kafadar mevcut arama motorlarından daha iyisini yapabileceklerini düşünerek yola çıktılar. Sonuç ortada. Eğer arama motoru zaten var biz neden yapalım gibi bir düşünceye kapılmış olsalardı şu anda Google&#8217;sız bir hayat yaşayacaktık. Tabii başka girişimci gençler aynı fikirden yola çıkarak alternatifleri sunabilirdi.
 
-Yazılım dünyası dışında bu kural çok daha bariz bir şekilde ortada. Eğer piyasadaki her firma yazılımcıların düşünce tarzına sahip olsaydı şu anda arabalarımız, televizyonlarımız, bilgisayarlarımız ve fotoğraf makinlerimiz tek bir markanın ürünü olacaktı. Öyle mi ? :)
+Yazılım dünyası dışında bu kural çok daha bariz bir şekilde ortada. Eğer piyasadaki her firma yazılımcıların düşünce tarzına sahip olsaydı şu anda arabalarımız, televizyonlarımız, bilgisayarlarımız ve fotoğraf makinlerimiz tek bir markanın ürünü olacaktı. Öyle mi ?
 
 Elbette orjinal bir fikir bulup bunu piyasaya sunmak çok büyük bir avantaj ancak o fikri bulana kadar geçen sürede boş boş oturup beklersek birçok fırsatı da kaçırabiliriz. Biraz gözlem ve yaratıcılık ile daha önceden yapılan ürünlerin güzel özelliklerini birleştirip veya kötü yönlerini eleyerek varolan ürünlerden çok daha iyisini piyasaya sunarak da başarıya ulaşabiliriz.
 
-Bunu anlayana kadar gerçekten çok boş vakit geçirdim ve artık çalışmaya başladım. Bu demek değil ki hala o muhteşem ve yapılmamış şeyi aramayı bıraktım ;)
+Bunu anlayana kadar gerçekten çok boş vakit geçirdim ve artık çalışmaya başladım. Bu demek değil ki hala o muhteşem ve yapılmamış şeyi aramayı bıraktım.

@@ -14,7 +14,7 @@ tags:
   - kod
   - pointer
 ---
-Aşağıdaki program çalışan ve bir şeye benzeyen ilk C programım diyebilirim :) Tabii ilk programım olmasından dolayı optimum şekilde çalışmıyor olabilir. Ayrıca programı yazdığım zamanda görsel programlama namına bir şey bilmediğim için program konsoldan çalışıyor.
+Aşağıdaki program çalışan ve bir şeye benzeyen ilk C programım diyebilirim. Tabii ilk programım olmasından dolayı optimum şekilde çalışmıyor olabilir. Ayrıca programı yazdığım zamanda görsel programlama namına bir şey bilmediğim için program konsoldan çalışıyor.
 
 Sadece kod verip bırakmak istemedim ve az da olsa ne yaptığımı açıklayım dedim. Öncelikle programın üç ana özelliğini belirtmeliyim sanırım;
 
@@ -24,13 +24,13 @@ Sadece kod verip bırakmak istemedim ve az da olsa ne yaptığımı açıklayım
 
 -Labirent üzerinde kapalı yani ulaşılamayan bir bölge olmayacak
 
--Son olarak labirent çözülecek :)
+-Son olarak labirent çözülecek.
 
 Ana hatları söyledikten sonra programın çalışmasına gelelim.
 
 Labirenti oluşturacak alan belirlendikten sonra (ör 10&#215;10) bu çerçeve üzerinde bulunan her noktayı bir listeye ekleniyor. Daha sonra bu noktalardan biri rasgele olarak seçiliyor. Bu nokta başlangıç alınarak daha önceden belirlenen adım sayısı kadar rasgele yönlerde ilerlenerek duvar örülüyor. Rasgele yönlerde atılan bu adımlar sonrasında oluşan yeni duvarlar çerçevenin olduğu listeye ekleniyor. Başlangıç olarak seçtiğimz ilk nokta ise listeden siliniyor.Yeni bir adım atılıp duvar örüldüğünde dikkat edilmesi gereken nokta ise kapalı alan oluşturmamaktır.
 
-Labirenti çözmek ise oluşturmaktan çok daha kolay. Klasik **<a href="http://en.wikipedia.org/wiki/Self-avoiding_walk" target="_blank">self avoding walk</a>** algoritmasıyla çözüme gidilmiştir. Labirentin sol en üst köşesi başlangıç, sağ en alt köşesi ise bitiş noktası olarak belirlenmiş ve çözüm ona göre çalışmaktadır. Tabii değiştirmek sizin elinizde :)
+Labirenti çözmek ise oluşturmaktan çok daha kolay. Klasik **<a href="http://en.wikipedia.org/wiki/Self-avoiding_walk" target="_blank">self avoding walk</a>** algoritmasıyla çözüme gidilmiştir. Labirentin sol en üst köşesi başlangıç, sağ en alt köşesi ise bitiş noktası olarak belirlenmiş ve çözüm ona göre çalışmaktadır. Tabii değiştirmek sizin elinizde.
 
 <pre class="brush: cpp; title: ; notranslate" title="">///////////////////////////////////////////////////
 /*             HEADER DOSYALARI                  */

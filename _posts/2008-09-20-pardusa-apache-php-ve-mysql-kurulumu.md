@@ -1,5 +1,5 @@
 ---
-title: 'Pardus&#8217;a Apache, PHP ve MySql Kurulumu'
+title: 'Pardus - Apache, PHP ve MySql Kurulumu'
 author: Ahmet Kakıcı
 layout: post
 permalink: /yazilim/pardusa-apache-php-ve-mysql-kurulumu/
@@ -43,6 +43,6 @@ Eğer Apache ve Mysql&#8217;in servis olarak çalışmasını istiyorsanız [iş
 > service mysql_server on  
 > service apache on
 
-Üç silahşörler emrinize amade :)
+Üç silahşörler emrinize amade.
 
 Not: En güncel PİSİ paketleri için kurulumdan önce &#8220;pisi update-repo&#8221; komutu ile paket yöneticisini güncellemelisiniz.

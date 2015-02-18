@@ -23,7 +23,7 @@ tags:
 ---
 Yaklaşık 5-6 yıldır iyi kötü birşeyler yazıyorum. Bu süre zarfı içinde birçok program, editör, derleyici kullandım ve artık neredeyse kullandığım her dil için belirli başlı programlarda karar kıldım.
 
-İlk defa HTML ve PHP yazmaya başladığımda NotePad kullanıyordum şimdilerde ise yelpaze oldukça genişledi ve haliyle kalite de arttı. Yazının devamında kullandığım programlama dilleri ve bu dillere ait editörler/derleyicileri sıraladım. Umarım biraz da olsa fikir sahibi olmanıza yardımcı olurum. Eğer önerileriniz varsa lütfen yorum yapmaktan çekinmeyin, keşfedilmeyi bekleyen programlara da şans verelim :)
+İlk defa HTML ve PHP yazmaya başladığımda NotePad kullanıyordum şimdilerde ise yelpaze oldukça genişledi ve haliyle kalite de arttı. Yazının devamında kullandığım programlama dilleri ve bu dillere ait editörler/derleyicileri sıraladım. Umarım biraz da olsa fikir sahibi olmanıza yardımcı olurum. Eğer önerileriniz varsa lütfen yorum yapmaktan çekinmeyin, keşfedilmeyi bekleyen programlara da şans verelim.
 
 <!--more-->
 
@@ -43,7 +43,7 @@ NotePad++ bir çok dili desteklediğinden dolayı her dilin en ince ayrıntısı
 
 **JAVA**
 
-Java (hala javascript ile karıştıran var mı ?) ile üniversiteye gittikten sonra tanıştım ve çevremdeki arkadaşlarım ve öğretim görevlileri sayesinde az çok ufkum açılmıştı. En azından not defteri ile işe başlamayacağımı biliyordum :).
+Java (hala javascript ile karıştıran var mı ?) ile üniversiteye gittikten sonra tanıştım ve çevremdeki arkadaşlarım ve öğretim görevlileri sayesinde az çok ufkum açılmıştı. En azından not defteri ile işe başlamayacağımı biliyordum.
 
 Derste örnekleri işlerken JCreator kullanılıyordu ve gözüme gayet güzel bir program gibi göründü. Hemen gidip JCreator&#8217;ı denemeye başladım. Olabilecek en temel Java editörü olduğunu çok daha sonradan ve acı bir tecrübe ile öğrendim. Java ile Tr<->İng sözlük programı yazmaya başladığımda programın ana işlevi arama işlevini bitirmemin ardından tam program bitti edasıyla rahatlamışken arayüz yapmadığımı hatırladım. Konsol üzerinden çalışan bir sözlüğü kim kullanır ki? Arayüz tasarlamaya başladığımda ise programın ana işlevinden çok arayüzle uğraştığımı farkettim. Sürükle bırak gibi bir özelliği olmadığından ve Java&#8217;nın layout özelliklerinde yeni olmamdan dolayı epey zaman harcadım ve JCreator ile aram bozuldu.
 
@@ -53,7 +53,7 @@ Evet NetBeans java konusunda aradığım yegane programdır. Java ile yazılmı�
 
 **C/C++/C#**
 
-Bilgisayar mühendisliği birinci sınıfta okuyorsunuz ve bir gün o çok korktuğunuz programlama dili C ile karşılaşıyorsunuz. Turbo C denilen mavi bir ekranda (mavi ekran zaten bir kabus :] ) birşeyler yazıldığını görüyorsunuz. Evet işte korkutucu C maceram böyle başladı, dili kavrama konusunda bir sorunum olmasa da (php tabanımdan dolayı) editör gözümü korkutmuştu. Turbo C&#8217;yi bir kere bile kullanmadan dönemi bitirdim ve o dönem boyunca herşeyi defterime yazdım :)
+Bilgisayar mühendisliği birinci sınıfta okuyorsunuz ve bir gün o çok korktuğunuz programlama dili C ile karşılaşıyorsunuz. Turbo C denilen mavi bir ekranda (mavi ekran zaten bir kabus :] ) birşeyler yazıldığını görüyorsunuz. Evet işte korkutucu C maceram böyle başladı, dili kavrama konusunda bir sorunum olmasa da (php tabanımdan dolayı) editör gözümü korkutmuştu. Turbo C&#8217;yi bir kere bile kullanmadan dönemi bitirdim ve o dönem boyunca herşeyi defterime yazdım.
 
 Daha sonra C++ ile tanıştığımızda Borland C++ Builder ile haşır neşir olduk. İlk defa sürükle bırak tarzında bir editör kullanmanın verdiği zevk ile BCB&#8217;ye tutulmuştum. Yazdığım şeylerin arkaplanında ne olduğunu bilmeden uzun süre BCB ile birlikteliğim devam etti. Daha sonraları derinlere indikçe az buz birşeyler öğrendim ve sürükle bırak yapmama rağmen arka planda olan işlerin farkına vardım. Ancak bir gün Visual Studio diye bir program ile tanıştım ve BCB&#8217;yi bir daha kurmamak üzere sildim.
 
@@ -65,6 +65,6 @@ Visual Studio&#8217;dan sonra C/C++/C# yazarken herhangi bir alternatifi göz ö
 
 **Assembly**
 
-Assembly yazarken de kullandığım en pratik program yine NotePad++. Derleme ve trace aşamasında MPLab&#8217;dan yararlansak da NotePad++ bu işte de sadık programım oldu. Ancak şunu belirteyim ki Assembly ile yazdığım çok az program var. Odtü robot yarışlarında ve mikroişlemciler ödevim dışında assembly yazdığımı hatırlamıyorum :)
+Assembly yazarken de kullandığım en pratik program yine NotePad++. Derleme ve trace aşamasında MPLab&#8217;dan yararlansak da NotePad++ bu işte de sadık programım oldu. Ancak şunu belirteyim ki Assembly ile yazdığım çok az program var. Odtü robot yarışlarında ve mikroişlemciler ödevim dışında assembly yazdığımı hatırlamıyorum.
 
-Özet olarak en iyi editörüm hiç kuşkusuz NotePad++ hele stil dosyasını değiştirip arka planı siyah yaptıktan sonra gözleri de yormadan rahatça saatlerinizi ona bakarak geçirebilirsiniz :)
+Özet olarak en iyi editörüm hiç kuşkusuz NotePad++ hele stil dosyasını değiştirip arka planı siyah yaptıktan sonra gözleri de yormadan rahatça saatlerinizi ona bakarak geçirebilirsiniz.

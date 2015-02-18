@@ -81,4 +81,4 @@ Yapay sinir ağları oluşturulduklarında hiçbir bilgi içermediğinden dolay�
   * **Başlangıç Koşullarına Bağlı Olması**
 Yapay sinir ağları başlangıç koşullarından bağımsız olarak çok kolay dahi olsa herhangi bir problemi çözemezler. Karar verme anında sadece daha önce öğrendiği koşullara göre sonuç üretebilir. Eğitim sırasında verilen örnekler ağın sonraki problemleri çözmesinde de etkilidir.</ul> 
 
-<a href="http://www.ahmetkakici.com/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/" target="_blank">Bir sonraki yazıda</a> biyolojik sinir sisteminin yapısına kısaca değinerek yapay sinir ağlarının yapısını anlatan bir yazı ile beraber olacağız. Daha sonrasında ise yapay sinir ağlarının işleyişini ele alabiliriz :)
+<a href="http://www.ahmetkakici.com/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/" target="_blank">Bir sonraki yazıda</a> biyolojik sinir sisteminin yapısına kısaca değinerek yapay sinir ağlarının yapısını anlatan bir yazı ile beraber olacağız. Daha sonrasında ise yapay sinir ağlarının işleyişini ele alabiliriz.

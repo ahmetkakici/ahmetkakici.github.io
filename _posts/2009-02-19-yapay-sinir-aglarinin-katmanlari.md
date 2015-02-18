@@ -11,7 +11,7 @@ tags:
   - Programlama
   - Yapay Sinir Aglari
 ---
-Serinin üçüncü ve diğerlerine göre nispeten kısa bir bölümüyle yapay sinir ağlarına devam ediyoruz (<a href="http://www.ahmetkakici.com/yazilim/yapay-sinir-aglarina-giris/" target="_blank">1</a> &#8211; <a href="http://www.ahmetkakici.com/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/" target="_blank">2</a>) . Bu yazıyı kısa kesmemin sebebi bundan sonraki bölümde yapay sinir ağlarının sınıflandırılması konusuna değinecek olmam ve onun da biraz uzun olmasıdır. Uzun uzadıya yazıp kimseyi bunaltmak istemem :)
+Serinin üçüncü ve diğerlerine göre nispeten kısa bir bölümüyle yapay sinir ağlarına devam ediyoruz (<a href="http://www.ahmetkakici.com/yazilim/yapay-sinir-aglarina-giris/" target="_blank">1</a> &#8211; <a href="http://www.ahmetkakici.com/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/" target="_blank">2</a>) . Bu yazıyı kısa kesmemin sebebi bundan sonraki bölümde yapay sinir ağlarının sınıflandırılması konusuna değinecek olmam ve onun da biraz uzun olmasıdır. Uzun uzadıya yazıp kimseyi bunaltmak istemem.
 
 **Yapay Sinir Ağlarının Yapısı  
 **

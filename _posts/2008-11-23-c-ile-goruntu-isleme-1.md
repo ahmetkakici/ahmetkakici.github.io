@@ -1,5 +1,5 @@
 ---
-title: 'C# ile Görüntü İşleme &#8211; 1'
+title: 'C# ile Görüntü İşleme - 1'
 author: Ahmet Kakıcı
 layout: post
 permalink: /programlama/c-ile-goruntu-isleme-1/
@@ -139,7 +139,7 @@ grPhoto.Dispose();
 
 </pre>
 
-Kenar algılama, gürültü yok etme ve yapısal (morfolojik) filtreleri de [bir sonraki yazımda][2] paylaşmak üzere. İyi işlemeler diliyorum :)
+Kenar algılama, gürültü yok etme ve yapısal (morfolojik) filtreleri de [bir sonraki yazımda][2] paylaşmak üzere. İyi işlemeler diliyorum
 
  [1]: http://www.ahmetkakici.com/yazilim/pointer-ve-c/
  [2]: http://www.ahmetkakici.com/programlama/c-ile-goruntu-isleme-2/

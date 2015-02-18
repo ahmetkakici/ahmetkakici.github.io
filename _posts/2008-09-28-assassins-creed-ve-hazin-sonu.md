@@ -1,5 +1,5 @@
 ---
-title: 'Assassin&#8217;s Creed ve Hazin Sonu'
+title: 'Assassin`s Creed ve Hazin Sonu'
 author: Ahmet Kakıcı
 layout: post
 permalink: /oyun/assassins-creed-ve-hazin-sonu/
@@ -20,8 +20,8 @@ AC&#8217;i açar açmaz hayranı olduğum Prince or Persia tadını aldım ki oy
 
 <!--more-->
 
-Oyunun ana senaryosu dışında yan görevler de mevcut ancak bana pek çekici gelmedi ve çoğunu da yapmadım. Halkı zalim askerlerin elinden kurtarmak ve bayrak toplamak ne kadar çekici bir düşünün :) Ana senaryo biraz fantastik ama yine de insanı içine çekiyor.
+Oyunun ana senaryosu dışında yan görevler de mevcut ancak bana pek çekici gelmedi ve çoğunu da yapmadım. Halkı zalim askerlerin elinden kurtarmak ve bayrak toplamak ne kadar çekici bir düşünün. Ana senaryo biraz fantastik ama yine de insanı içine çekiyor.
 
 İki gün boyunca kötü adamları (!) öldürerek oyunun sonuna gelince mutlaka ikinci oyunun çıkacağını hissediyorsunuz ancak bu kadar bir kötü son beklemiyordum. &#8216;Al işte bitti&#8217; diyerek bırakıp gitmişler. Açıkçası o kadar azmedip oynadıktan sonra çok daha güzel bir final hayal etmiştim. Siz de oynarsanız beklentilerinizi yüksek tutmayın zira oyunun sonu bir çok oyuncunun internette de belirttiği gibi hayal kırıklığı.
 
-Ekim sonunda Fallout 3 çıkana kadar böyle ufak tefek oyunlar ile zaman geçireceğiz sanırım :)
+Ekim sonunda Fallout 3 çıkana kadar böyle ufak tefek oyunlar ile zaman geçireceğiz sanırım.
