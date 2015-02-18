@@ -4,22 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Karl Seguin</title>
- <link href="http://openmymind.net/atom.xml" rel="self"/>
- <link href="http://openmymind.net/"/>
+ <title>Ahmet Kakıcı</title>
+ <link href="http://ahmetkakici.com/atom.xml" rel="self"/>
+ <link href="http://ahmetkakici.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://openmymind.net/</id>
+ <id>http://ahmetkakici.com/</id>
  <author>
-   <name>Karl Seguin</name>
+   <name>Ahmet Kakıcı</name>
  </author>
 
  {% for post in site.posts limit:20 %}
  {% if post.category != 'creative' %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
-   <link href="http://openmymind.net{{ post.url }}"/>
+   <link href="http://ahmetkakici.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://openmymind.net{{ post.id }}</id>
+   <id>http://ahmetkakici.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endif %}
