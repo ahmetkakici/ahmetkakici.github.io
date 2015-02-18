@@ -1,5 +1,5 @@
 ---
-title: 'Java Soket Programlama &#8211; NetBeans Projesi'
+title: 'Java Soket Programlama - NetBeans Projesi'
 author: Ahmet Kakıcı
 layout: post
 permalink: /programlama/java-soket-programlama-netbeans-projesi/

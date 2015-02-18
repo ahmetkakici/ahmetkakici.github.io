@@ -1,5 +1,5 @@
 ---
-title: 'Google&#8217;dan yeni hizmet: Doktor'
+title: 'Google`dan yeni hizmet: Doktor'
 author: Ahmet Kakıcı
 layout: post
 permalink: /genel/googledan-yeni-hizmet-doktor/

@@ -1,5 +1,5 @@
 ---
-title: 'Yazılım Atölyesi &#8211; 2'
+title: 'Yazılım Atölyesi - 2'
 author: Ahmet Kakıcı
 layout: post
 permalink: /yazilim/yazilim-atolyesi-2/

@@ -1,5 +1,5 @@
 ---
-title: 'C# ile Görüntü İşleme &#8211; 3'
+title: 'C# ile Görüntü İşleme - 3'
 author: Ahmet Kakıcı
 layout: post
 permalink: /programlama/c-ile-goruntu-isleme-3/

@@ -1,5 +1,5 @@
 ---
-title: 'ASP.NET Development Server &#8211; IPv6 sorunu'
+title: 'ASP.NET Development Server - IPv6 sorunu'
 author: Ahmet Kakıcı
 layout: post
 permalink: /yazilim/asp-net-development-server-ipv6-sorunu/

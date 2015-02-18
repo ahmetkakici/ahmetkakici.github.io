@@ -1,5 +1,5 @@
 ---
-title: 'C# ve Reflection &#8211; 1'
+title: 'C# ve Reflection - 1'
 author: Ahmet Kakıcı
 excerpt: "C#'ta Reflection temel işlemleri."
 layout: post
