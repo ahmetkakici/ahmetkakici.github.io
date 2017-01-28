@@ -21,7 +21,7 @@ Yapay sinir ağları biyolojik sinir ağlarının modellemesi olduğu için yapa
 **Biyolojik Sinir Hücresinin Yapısı**  
 Biyolojik sinir sisteminin temel yapı taşı olan nöronların yapısı dört ana bölümden oluşmaktadır; dendrit, akson, çekirdek ve bağlantılar. Dendritlerin sinir hücresinin ucunda bulunan ve ağaç kökü görünümüne sahip bir yapıya sahiptir. Dendritlerin görevi bağlı olduğu diğer nöronlardan veya duyu organlarından gelen sinyalleri çekirdeğe iletmektir. Çekirdek dendrit tarafından gelen sinyalleri bir araya toplayarak ve aksona iletir. Toplanan bu sinyaller akson tarafından işlenerek nöronun diğer ucunda bulunan bağlantılara gönderilir. Bağlantılar ise yeni üretilen sinyalleri diğer nöronlara iletir.  
 
-![Sinir Hücresi - Nöron]({{ site.url }}/assets/images/ysa/noron.gif)
+![Sinir Hücresi - Nöron](/assets/images/ysa/noron.gif)
 
 
 <span></span> 
