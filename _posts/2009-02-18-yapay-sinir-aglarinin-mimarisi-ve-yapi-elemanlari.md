@@ -11,7 +11,7 @@ tags:
   - Programlama
   - Yapay Sinir Aglari
 ---
-<a href="http://www.ahmetkakici.com/yazilim/yapay-sinir-aglarina-giris/" target="_blank">Yapay sinir ağlarına giriş</a> yazısının ardından seriye devam ediyoruz.
+<a href="https://ahmetkakici.github.io/yazilim/yapay-sinir-aglarina-giris/">Yapay sinir ağlarına giriş</a> yazısının ardından seriye devam ediyoruz.
 
 **Yapay Sinir Ağlarının Mimarisi ve Yapı Elemanları**  
 Yapay sinir ağları biyolojik sinir ağlarının modellemesi olduğu için yapay sinir ağlarının çalışmasını anlayabilmek için öncelikle biyolojik sinir sisteminin yapısına bakmak gerekir. Biyolojik sinir sisteminin yapı taşı olan sinir hücreleri nöronlar, yapay sinir ağlarının da yapı taşıdır.
@@ -21,22 +21,8 @@ Yapay sinir ağları biyolojik sinir ağlarının modellemesi olduğu için yapa
 **Biyolojik Sinir Hücresinin Yapısı**  
 Biyolojik sinir sisteminin temel yapı taşı olan nöronların yapısı dört ana bölümden oluşmaktadır; dendrit, akson, çekirdek ve bağlantılar. Dendritlerin sinir hücresinin ucunda bulunan ve ağaç kökü görünümüne sahip bir yapıya sahiptir. Dendritlerin görevi bağlı olduğu diğer nöronlardan veya duyu organlarından gelen sinyalleri çekirdeğe iletmektir. Çekirdek dendrit tarafından gelen sinyalleri bir araya toplayarak ve aksona iletir. Toplanan bu sinyaller akson tarafından işlenerek nöronun diğer ucunda bulunan bağlantılara gönderilir. Bağlantılar ise yeni üretilen sinyalleri diğer nöronlara iletir.  
 
+![Sinir Hücresi - Nöron]({{ site.url }}/assets/images/ysa/noron.gif)
 
-<div class="ngg-gallery-singlepic-image ngg-center" style="max-width: 297px">
-  <a href="http://www.ahmetkakici.com/wp-content/uploads/2009/02/ysa/noron.gif"
-		     title=""
-             data-src="http://www.ahmetkakici.com/wp-content/uploads/2009/02/ysa/noron.gif"
-             data-thumbnail="http://www.ahmetkakici.com/wp-content/uploads/2009/02/ysa/thumbs/thumbs_noron.gif"
-             data-image-id="67"
-             data-title="Sinir Hücresi - Nöron"
-             data-description=""
-             target='_self'
-             class="thickbox" rel="624f3961d9474d6708ab394ee1b99801"> <img class="ngg-singlepic"
-             src="http://www.ahmetkakici.com/wp-content/uploads/2009/02/ysa/dynamic/noron-nggid0267-ngg0dyn-320x240x100-00f0w010c010r110f110r010t010.gif"
-             alt="Sinir Hücresi - Nöron"
-             title="Sinir Hücresi - Nöron"
-              width="297" /> </a>
-</div>
 
 <span></span> 
 
@@ -119,7 +105,7 @@ Birleştirme fonksiyonu bir yapay sinir hücresine ağırlıklarla çarpılarak 
 
 <span></span> 
 
-  * ** Aktivasyon Fonksiyonu**
+  * **Aktivasyon Fonksiyonu**
 
 Birleştirme (toplama ) fonksiyonundan çıkan NET toplam hücrenin çıktısını oluşturmak üzere aktivasyon fonksiyonuna iletilir. Aktivasyon fonksiyonu genellikle doğrusal olmayan bir fonksiyon seçilir. Yapay sinir ağlarının bir özelliği olan “doğrusal olmama” aktivasyon fonksiyonlarının doğrusal olmama özelliğinden gelmektedir.  
 Aktivasyon fonksiyonu seçilirken dikkat edilmesi gereken bir diğer nokta ise fonksiyonun türevinin kolay hesaplanabilir olmasıdır. Geri beslemeli ağlarda aktivasyon fonksiyonunun türevi de kullanıldığı için hesaplamanın yavaşlamaması için türevi kolay hesaplanır bir fonksiyon seçilir.
