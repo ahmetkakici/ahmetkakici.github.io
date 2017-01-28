@@ -61,16 +61,16 @@ Bilgisayar üzerinde çalışan bir elemanın zarar görüp devre dışı kalmas
   * **Öğrenebilirlik**
 Klasik algoritmaların çoğu verilen formüllerin hesaplanması ile aynı girdiler için daima aynı çıktıları üretirler. Lineer olan bu algoritmaların aksine yapay sinir ağları sayesinde programlar öğrenme yeteneği de kazanmışlardır. Klasik algoritmalarda tam olarak tanımlı bir çözüm yolu olmayan problemler çözülemezken yapay sinir ağları sayesinde problemler çözüm yöntemi hakkında herhangi bir bilgi verilmeksizin çözülebilir. Yapay sinir ağlarının bu tip problemleri çözebilmesi için gereken tek şey örnek girdiler için sonuçların verilmesidir.
 
-  * **Genelleme **
+  * **Genelleme**
 Yapay sinir ağları üzerinde çalıştığı probleme göre eğitildikten sonra eğitim sırasında karşılaşmadığı durumlar için de yanıt verebilir. Örneğin bir satranç taşının görüntüsünün tanıtılmasından sonra bu taşın görüntüsünü içeren ancak gürültülü bir görüntü verildiğinde bile yapay sinir ağı bu taşı tanıyabilir.
 
-  * **Uyarlanabilirlik **
+  * **Uyarlanabilirlik**
 Yapay sinir ağı üzerinde çalıştığı probleme gör kendini düzenleyerek ağırlıklarını belirler. Bir problemi çözmek için eğitilen yapay sinir ağı herhangi bir başka problemde de kolaylıkla kullanılabilir. Bunun için gereken tek şey yeni problemin girdi ve çıktılarıyla ağın tekrar eğitilmesidir.
 
-  * **Hız **
+  * **Hız**
 Yapay sinir ağları paralel yapısı nedeniyle hızlı bir şekilde çalışıp problem çözme yeteneğine sahiptir. Aynı özelliğinden dolayı donanım üzerinde de kolaylıkla gerçeklenebilir.
 
-  * **Analiz ve Tasarım Kolaylığı **
+  * **Analiz ve Tasarım Kolaylığı**
 Yapay sinir ağlarının temel yapı taşı olan yapay sinir yapısı bütün yapay sinir ağlarında aynıdır. Bundan dolayı yapay sinir hücresinin tasarımından sonra bu temel eleman ile yapay sinir ağları kolaylıkla oluşturulabilir. Yapay sinir ağlarının temel yapısının da aynı olmasından dolayı bu ağlar her türlü problemin çözümünde kullanılabilinir.</ul> 
 
 **Yapay Sinir Ağlarının Dezavantajları**
@@ -81,4 +81,4 @@ Yapay sinir ağları oluşturulduklarında hiçbir bilgi içermediğinden dolay�
   * **Başlangıç Koşullarına Bağlı Olması**
 Yapay sinir ağları başlangıç koşullarından bağımsız olarak çok kolay dahi olsa herhangi bir problemi çözemezler. Karar verme anında sadece daha önce öğrendiği koşullara göre sonuç üretebilir. Eğitim sırasında verilen örnekler ağın sonraki problemleri çözmesinde de etkilidir.</ul> 
 
-<a href="http://www.ahmetkakici.com/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/" target="_blank">Bir sonraki yazıda</a> biyolojik sinir sisteminin yapısına kısaca değinerek yapay sinir ağlarının yapısını anlatan bir yazı ile beraber olacağız. Daha sonrasında ise yapay sinir ağlarının işleyişini ele alabiliriz.
+<a href="https://ahmetkakici.github.io/yapay-sinir-aglari/yapay-sinir-aglarinin-mimarisi-ve-yapi-elemanlari/">Bir sonraki yazıda</a> biyolojik sinir sisteminin yapısına kısaca değinerek yapay sinir ağlarının yapısını anlatan bir yazı ile beraber olacağız. Daha sonrasında ise yapay sinir ağlarının işleyişini ele alabiliriz.
