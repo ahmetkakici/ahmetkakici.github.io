@@ -69,7 +69,7 @@ Doğrusal problemler çözmek amacıyla aktivasyon fonksiyonu doğrusal bir fonk
 **- Adım Aktivasyon Fonksiyonu**  
 Girdilerin sıfırdan büyük olup olmamasına göre -1 veya 1 çıktısı veren fonksiyondur. Sadece iki çeşit çıktı vermektedir.
 
-![](Adım/Step Aktivasyon Fonksiyonu/assets/images/ysa/adim.jpg)
+![Adım/Step Aktivasyon Fonksiyonu](/assets/images/ysa/adim.jpg)
 
 
 **- Sigmoid Aktivasyon Fonksiyonu**  
