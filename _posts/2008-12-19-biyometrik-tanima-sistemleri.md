@@ -58,7 +58,7 @@ Analog ortamdan dijital ortama veri aktarımı sırasında kayıt esnasındaki o
 
 Bu tip yanlış algılama olasılıklarının olduğu biyometrik tanıma yöntemlerinin kıyaslanması için aşağıdaki terimler ileri sürülmüştür:
 
-  * **False Accept Rate (FAR) **: Sistemin veritabanında bulunmayan bir kişiye ait bilgileri yanlış analiz etmesinden ve veritabanında bulunan biriyle eşleştirmesinden kaynaklanan yanlış tespitlerin oranıdır.
+  * **False Accept Rate (FAR)**: Sistemin veritabanında bulunmayan bir kişiye ait bilgileri yanlış analiz etmesinden ve veritabanında bulunan biriyle eşleştirmesinden kaynaklanan yanlış tespitlerin oranıdır.
 
   * **False Reject Rate (FRR)** : Sistemin veritabanında varolan kişileri sonraki bir tarama sonucunda bulamamasının oranıdır.
 
@@ -79,20 +79,16 @@ Günümüzdeki sistemlerde bu sınıflandırma genelde iki parmaktan alınan ör
 
 Ülkemizde parmak izinin incelenilmesi ve biyometrik tanıma olarak kullanılması 1910 yılında Macar asıllı Yusuf Cemil tarafından başlatılmıştır. Daha sonra ise polis teşkilatı tarafından kullanılmıştır.
 
-** Özellikleri:**  
+**Özellikleri:**  
 Galton ve Henry’nin çalışmaları sonucunda ortaya çıkan sınıflar çizgilerin şekline göre ayrılmaktadır ve bu sınıflar aşağıdaki gibidir:
 
   * Yay (arch)
   * Döngü (loop)
   * Helezon (whorl) 
 
-	<p style="text-align: center;">
+	<br>
 	![Parmak İzi Türleri](/assets/images/biyometri/turler.jpg)
-	</p>
-<p style="text-align: center;">
-  Yay (Arch)                      Döngü (Loop)               Helezon (Whorl)
-</p>
-
+	
 Daha detaylı işlemler için bu sınıflarda alt sınılara bölünmektedir.
 
 Bu sınıflandırmaların yanı sıra parmak izlerine çizgi bazında bakıldığında belirli özelliklere sahip noktalar ortaya çıkmaktadır.
@@ -101,19 +97,19 @@ Bu sınıflandırmaların yanı sıra parmak izlerine çizgi bazında bakıldı�
   ![Ridge dots](/assets/images/biyometri/1.jpg)
 
   * Noktalardan daha uzun olan ve değişken boyutlu çizgilerde vardır ve ada (island) olarak adlandırılır
-  ![Island](/assets/images/biyometri/2.jpg)
+	![Island](/assets/images/biyometri/2.jpg)
 
   * Bir çizginin bölünüp birden çok çizgiye ayrılıdığı noktalar çatal (bifurcation) olarak adlandırılır
-  ![Bifurcation](/assets/images/biyometri/3.jpg)
+	![Bifurcation](/assets/images/biyometri/3.jpg)
 
-Karşılıklı çatal (opposed bifurcation)  
-![Opposed Bifurcation](/assets/images/biyometri/4.jpg)
+  * Karşılıklı çatal (opposed bifurcation)  
+	![Opposed Bifurcation](/assets/images/biyometri/4.jpg)
 
-İkili Çatal (double bifurcation)  
-![Double Bifurcation](/assets/images/biyometri/5.jpg)
-Üçlü Çatal (trifurcation)
-![Trifurcation](/assets/images/biyometri/6.jpg)
+  * İkili Çatal (double bifurcation)  
+	![Double Bifurcation](/assets/images/biyometri/5.jpg)
 
+  * Üçlü Çatal (trifurcation)
+	![Trifurcation](/assets/images/biyometri/6.jpg)
 
   * Çizgilerin bitiş noktalarıda özel olarak ele alınır  
 	![Parmak İzi](/assets/images/biyometri/7.jpg)
@@ -207,7 +203,8 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
 
 **Trace Transform Radon** dönüşümünün genelleştirilmiş halidir. Radon dönüşümü iki boyutlu uzayda düz çizgilere uygulanan intergral dönüşümüdür. Ters radon dönüşümü ile görüntülerin tekrar oluşturulması sağlanabilir. Trace transform sayesinde cisimleri tanırken rotasyon, boyutlandırma gibi transformasyonların ektileri ortadan kaldırılır. Bu sayede farklı açılardan görüntüsü alınan cisimlerde tanınabilir.
 
-**AAM**(Active Appearance Model) nesnelerin şekillerini istatistiksel bir modelidir ve iki resmin eşleştirilmesi için kullanılan bir hesaplama yöntemidir. Algoritma gri seviye resimler üstünde tahmin edilen nokta ile hedef nokta arasındaki farkların hesaplanmasıyla (least squares) çalışır.  
+**AAM**(Active Appearance Model) nesnelerin şekillerini istatistiksel bir modelidir ve iki resmin eşleştirilmesi için kullanılan bir hesaplama yöntemidir. Algoritma gri seviye resimler üstünde tahmin edilen nokta ile hedef nokta arasındaki farkların hesaplanmasıyla (least squares) çalışır.
+<br>  
 ![Active Appearance Model](/assets/images/biyometri/12.jpg)
 
 **3-D Morphable Model** yukarıda kullanılan tekniklere göre daha değişik bir yaklaşım ile yüz resimlerini 3 boyutlu olarak inceler. Örnek olarak alınan resmin çekildiği ortam ile veri tabanındakini karşılaştırırken çevre koşullarının değişimini 3 boyutlu görüntüye uyarlayarak elde ettiği sonuç ile karşılaştırma yapabilir. Bu yöntemi açıkayacan örnek programın videosunu <a href="http://www.youtube.com/watch?v=nice6NYb_WA" target="_blank">izleyebilirsiniz. </a>Verilen resimden 3boyutlu görüntüyü çıkarması ve transformasyonlardan bağımsız olması bu yöntemi güçlü kılmakla beraber uygulanmasını da bir o kadar zorlaştırmaktadır.
@@ -284,7 +281,8 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   </p>
   
   <p>
-    İris tanımada ilk adım göz resminden iris bölgesinin bulunmasıdır. Bunun için iris şeklinden yararlanılabilineceği gibi göz bebeğinin siyah renginden de yararlanılıp histogramdan da bu bölge çıkarılabilir. Ayrıca sobel kenar algılama algoritması ile kenarlar bulunup ‘circle detection’ algoritmalarıyla da göz bebeği ve iris bulunabilir. Göz kapağının tamamen açık olmadığı durumlarla da karşılaşılabileceği için önce göz bebeği ardından irisin bulunması daha iyi sonuçlar vercektir.<br />
+    İris tanımada ilk adım göz resminden iris bölgesinin bulunmasıdır. Bunun için iris şeklinden yararlanılabilineceği gibi göz bebeğinin siyah renginden de yararlanılıp histogramdan da bu bölge çıkarılabilir. Ayrıca sobel kenar algılama algoritması ile kenarlar bulunup ‘circle detection’ algoritmalarıyla da göz bebeği ve iris bulunabilir. Göz kapağının tamamen açık olmadığı durumlarla da karşılaşılabileceği için önce göz bebeği ardından irisin bulunması daha iyi sonuçlar vercektir.
+	<br>
 	![İris Tanıma](/assets/images/biyometri/15.jpg)
   </p>
   
@@ -294,6 +292,7 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   
   <p>
     Bu yöntemlerden biri göz bebeğinin etrafından alınan parçalar üzerinde işlem yapmaktır. Tüm iris üzerinde işlem yapılmamasının bir diğer sebebi ise göz kapağının yarı kapalı olması ve kirpiklerin irisi örtmesidir. İris üzerinden göz bebeğine bitişik yerlerden belirli sayıda parça alınarak bu karşılaştırma yapılabilir.
+	<br>
 	![İris Tanıma](/assets/images/biyometri/16.jpg)
   </p>
   
