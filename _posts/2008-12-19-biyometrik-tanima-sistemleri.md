@@ -84,8 +84,11 @@ Galton ve Henry’nin çalışmaları sonucunda ortaya çıkan sınıflar çizgi
 
   * Yay (arch)
   * Döngü (loop)
-  * Helezon (whorl)[<img class="aligncenter size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/turler.jpg" alt="" />][1]
+  * Helezon (whorl) 
 
+	<p style="text-align: center;">
+	![Parmak İzi Türleri](/assets/images/biyometri/turler.jpg)
+	</p>
 <p style="text-align: center;">
   Yay (Arch)                      Döngü (Loop)               Helezon (Whorl)
 </p>
@@ -95,29 +98,34 @@ Daha detaylı işlemler için bu sınıflarda alt sınılara bölünmektedir.
 Bu sınıflandırmaların yanı sıra parmak izlerine çizgi bazında bakıldığında belirli özelliklere sahip noktalar ortaya çıkmaktadır.
 
   * Eni boyuna neredeyse eşit olan çizgiler nokta (ridge dots) olarak alandırılır
-[<img class="size-full wp-image-101 alignnone" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/1.jpg" alt="" width="138" height="58" />][2]
+  ![Ridge dots](/assets/images/biyometri/1.jpg)
 
   * Noktalardan daha uzun olan ve değişken boyutlu çizgilerde vardır ve ada (island) olarak adlandırılır
-[<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/2.jpg" alt="" />][3]
+  ![Island](/assets/images/biyometri/2.jpg)
 
   * Bir çizginin bölünüp birden çok çizgiye ayrılıdığı noktalar çatal (bifurcation) olarak adlandırılır
-[<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/3.jpg" alt="" />][4]  
-Karşılıklı çatal (opposed bifurcation)  
-[<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/4.jpg" alt="" />][5]  
-İkili Çatal (double bifurcation)  
-[<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/5.jpg" alt="" />][6]  
-Üçlü Çatal (trifurcation)
+  ![Bifurcation](/assets/images/biyometri/3.jpg)
 
-[<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/6.jpg" alt="" />][7]</ul> 
+Karşılıklı çatal (opposed bifurcation)  
+![Opposed Bifurcation](/assets/images/biyometri/4.jpg)
+
+İkili Çatal (double bifurcation)  
+![Double Bifurcation](/assets/images/biyometri/5.jpg)
+Üçlü Çatal (trifurcation)
+![Trifurcation](/assets/images/biyometri/6.jpg)
+
 
   * Çizgilerin bitiş noktalarıda özel olarak ele alınır  
-    [<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/7.jpg" alt="" />][8]
+	![Parmak İzi](/assets/images/biyometri/7.jpg)
+  
   * Birden fazla çizginin kesiştiği noktalarda özel olarak ele alınır  
-    [<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/8.jpg" alt="" />][9]
+	![Parmak İzi](/assets/images/biyometri/8.jpg)
+    
   * Bir çizginin çatallaşıp kısa bir mesafe sonra tekrar birleşmesi sonucunda oluşan kapalı yapıya göl (lake) adı verilir.  
-    [<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/9.jpg" alt="" />][10]
+	![Parmak İzi](/assets/images/biyometri/9.jpg)
+	
   * Paralel giden iki çizgiyi birleştiren kısa çizgilere de köprü (bridge) adı verilir.  
-    [<img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/10.jpg" alt="" />][11]
+    ![Parmak İzi](/assets/images/biyometri/10.jpg)
 
 Parmak izi tanıma işlemi korelasyon yöntemiyle yapıldığı gibi yukarıda belirtilen özel noktaların yer ve sırasına göre de yapılabilir. İkinci işlem için graf yapısı oluşturulmalıdır. Korelasyon işleminin doğru sonuç verebilmesi yön bilgisine de bağlı olduğundan örnek alınırken buna dikkat edilmelidir.
 
@@ -147,13 +155,12 @@ Kenar algılama filtreleri olarak sobel, gradient, prewitt gibi filtrelerl kulla
   * Parmak izinin kalıbının kendisi yerine kullanılma ihtimali vardır.
 
 **ii.    Yüz Tanıma**  
-****
 
-** Tarihçe:**  
+**Tarihçe:**  
 İnsan yüzü parmakta olduğu gibi özelliklerinin kolay çıkarılabileceği bir yapıya sahip olmadığınadan yüz tanımanın gelişimi ve kullanımı parmak izinde olduğu kadar eskiye dayanmamaktadır. Yüzümüzün içerdiği özelliklerin fazlalığı bu özellikleri kullanacak yöntemlerin sayısını da arttırmıştır. Değişik özellikleri kullanan değişik yöntemler ortaya çıkmıştır. Bunlardan ilki sayılabilecek yöntem ‘eigenfaces’ Matthew Turk ve Alex Pentland 1987 yılında ortaya atılmıştır. Yüz tanımada kullanılan başlıca yöntemler aşağıdaki gibidir:
 
   * PCA
-  * ****ICA
+  * ICA
   * LDA
   * EP
   * EBGM
@@ -168,7 +175,7 @@ Kenar algılama filtreleri olarak sobel, gradient, prewitt gibi filtrelerl kulla
   * Boosting & Ensemble
 
 <p style="text-align: center;">
-  <a href="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/11.jpg"><img class="size-full wp-image-101 alignnone" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/11.jpg" alt="" /></a>
+![Eigen Face - Örnek](/assets/images/biyometri/11.jpg)
 </p>
 
 <p style="text-align: center;">
@@ -189,31 +196,31 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   <strong>PCA </strong>yönteminde tanıma işleminin yapılabilmesi için alınan örneklerin veritabanında bulunanlar ile aynı boyutta olması gereklidir. PCA tekniği temel olarak çok boyutlu veri kümelerini analiz edilebilmesi için daha az boyutlu kümelere dönüştürür. Bu yöntemde yapılan işlem Karhunen-Loève transformu olarak da bilinmektedir. PCA yönteminde veritabanında saklanan görüntüler küçültülmüş ve sıkıştırılmış olarak saklanmaktadır. Bu sayede vertabanın yükü azaltılmış ayrıca arama hızı arttırılmıştır.<br /> <strong></strong>
 </p>
 
-** ICA **(Independent component analysis) yöntemi çok değişkenli işaretleri alt parçalara bölerek işlem yapmaya dayalı bir hesaplama metodudur.  
-****
+**ICA**(Independent component analysis) yöntemi çok değişkenli işaretleri alt parçalara bölerek işlem yapmaya dayalı bir hesaplama metodudur.  
 
-** LDA **(Linear Discriminant Analysis)  elde varolan sınıfların özelliklerini ölçerek yeni gelen örneklerin sınıflandırılmasını sağlayan bir yöntemdir. Sınıflar arasında farklılıklar arttırılmaya çalışılırken sınıf içindeki örneklerin arasındaki farklar azaltılmaya çalışılır. LDA sadece sınıflandırma yapmaya yarayan bir yöntemdir. Veri tipi hakkında herhangi bir bilgi vermez.
+**LDA**(Linear Discriminant Analysis)  elde varolan sınıfların özelliklerini ölçerek yeni gelen örneklerin sınıflandırılmasını sağlayan bir yöntemdir. Sınıflar arasında farklılıklar arttırılmaya çalışılırken sınıf içindeki örneklerin arasındaki farklar azaltılmaya çalışılır. LDA sadece sınıflandırma yapmaya yarayan bir yöntemdir. Veri tipi hakkında herhangi bir bilgi vermez.
 
-**EP **(Evolutionary Pursuit) genetik algorimtaları kullanarak sınıflandırma yapan bir yöntemdir. Karşılaştırılacak örnek sayısı (durum uzayı) çok büyük olduğu zaman genetik algoritmalara başvurmak hızlı bir çözüm elde etmemize yardımcı olmaktadır.
+**EP**(Evolutionary Pursuit) genetik algorimtaları kullanarak sınıflandırma yapan bir yöntemdir. Karşılaştırılacak örnek sayısı (durum uzayı) çok büyük olduğu zaman genetik algoritmalara başvurmak hızlı bir çözüm elde etmemize yardımcı olmaktadır.
 
 **EBGM** (Elestic Bunch Graph Matching) yönteminde insan yüzünü graf olarak ifade eder. Graftaki düğümler burun, göz gibi belirgin noktalardan oluşur. Kenarlar, noktalar arasındaki 2boyutlu uzaklıklar ile ağırlıklandırılır.  Her düğümde farklı faz ve genlikte oluşturulmuş 40 adet Gabor wavelet katsayısı bulunur. Bu katsayılara ‘jet’ denilmektedir. Tanıma işlemi jet’ler ve ağırlıklandırılmış kenarlar ile yapılır.  
-****
 
-** Trace Transform Radon **dönüşümünün genelleştirilmiş halidir. Radon dönüşümü iki boyutlu uzayda düz çizgilere uygulanan intergral dönüşümüdür. Ters radon dönüşümü ile görüntülerin tekrar oluşturulması sağlanabilir. Trace transform sayesinde cisimleri tanırken rotasyon, boyutlandırma gibi transformasyonların ektileri ortadan kaldırılır. Bu sayede farklı açılardan görüntüsü alınan cisimlerde tanınabilir.
 
-**AAM **(Active Appearance Model) nesnelerin şekillerini istatistiksel bir modelidir ve iki resmin eşleştirilmesi için kullanılan bir hesaplama yöntemidir. Algoritma gri seviye resimler üstünde tahmin edilen nokta ile hedef nokta arasındaki farkların hesaplanmasıyla (least squares) çalışır.  
-[<img class="aligncenter size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/12.jpg" alt="" />][12]
+**Trace Transform Radon** dönüşümünün genelleştirilmiş halidir. Radon dönüşümü iki boyutlu uzayda düz çizgilere uygulanan intergral dönüşümüdür. Ters radon dönüşümü ile görüntülerin tekrar oluşturulması sağlanabilir. Trace transform sayesinde cisimleri tanırken rotasyon, boyutlandırma gibi transformasyonların ektileri ortadan kaldırılır. Bu sayede farklı açılardan görüntüsü alınan cisimlerde tanınabilir.
+
+**AAM**(Active Appearance Model) nesnelerin şekillerini istatistiksel bir modelidir ve iki resmin eşleştirilmesi için kullanılan bir hesaplama yöntemidir. Algoritma gri seviye resimler üstünde tahmin edilen nokta ile hedef nokta arasındaki farkların hesaplanmasıyla (least squares) çalışır.  
+![Active Appearance Model](/assets/images/biyometri/12.jpg)
 
 **3-D Morphable Model** yukarıda kullanılan tekniklere göre daha değişik bir yaklaşım ile yüz resimlerini 3 boyutlu olarak inceler. Örnek olarak alınan resmin çekildiği ortam ile veri tabanındakini karşılaştırırken çevre koşullarının değişimini 3 boyutlu görüntüye uyarlayarak elde ettiği sonuç ile karşılaştırma yapabilir. Bu yöntemi açıkayacan örnek programın videosunu <a href="http://www.youtube.com/watch?v=nice6NYb_WA" target="_blank">izleyebilirsiniz. </a>Verilen resimden 3boyutlu görüntüyü çıkarması ve transformasyonlardan bağımsız olması bu yöntemi güçlü kılmakla beraber uygulanmasını da bir o kadar zorlaştırmaktadır.
 
-**3-D Face Recognition **bu yöntemin getirdiği en büyük yenilik yüz görüntüsünde kişinin doğal ifadeleriden bağımsız olarak tanıma yapabilmesidir. Öncelikle yüz bölgesi ve dokusu belirlenir.  Daha sonra bu bölge içinden gereksiz ve tanımayı zorlaştıracak bölümler (saç, vs) atılır. Bu işlemin ardından yüzün 3boyutlu gösterimi elde edilir. Bu elde edilen görüntü tanıma işlemi için kullanılmaktadır.  
-** Bayesian Framework **Bayes teoremine dayanan ve olasılıksal benzerlikleri ölçen bir yöntemdir. Bu yönteme göre iki çeşit yüz görüntüsü varyasyonu vardır: intrapersonal (kişinin içinde gelişen) ve extrapersonal (kişinin dışında gelişen). Yüzler arasındaki benzerlik Bayesian kuralına göre ölçülmektedir.  
-****
+**3-D Face Recognition** bu yöntemin getirdiği en büyük yenilik yüz görüntüsünde kişinin doğal ifadeleriden bağımsız olarak tanıma yapabilmesidir. Öncelikle yüz bölgesi ve dokusu belirlenir.  Daha sonra bu bölge içinden gereksiz ve tanımayı zorlaştıracak bölümler (saç, vs) atılır. Bu işlemin ardından yüzün 3boyutlu gösterimi elde edilir. Bu elde edilen görüntü tanıma işlemi için kullanılmaktadır.  
 
-** SVM **(Support Vector Machine) yöntemi verilen noktaları destek vektörleri ile ifade eder ve aynı sınıfa ait noktaları bir bölümde tutacak bir hiperbol çizmeye çalışır. PCA yöntemiyle özellik çıkarımı yapıldıktan sonra SVM yöntemiyle görüntü ikilieri arasındaki farklar araştırılır. Yani veri tabanındaki görüntülere ait vektörler ile alınan örnek vektörleri karşılaştırılır.  SVM yöntemiyle resimde işaretlenen belirli noktaların takibi de yapılabilir. Kamera karşısında bulunan bir insanın yüzünü göz-ağız gibi bölgelere ayırarak bunların takibini yapan SVM yöntemiyle insanın ruh halini gösteren bir videoyu <a href="http://www.youtube.com/watch?v=V25qu1xpJOc" target="_blank">izleyebilirsiniz</a>.
+**Bayesian Framework**Bayes teoremine dayanan ve olasılıksal benzerlikleri ölçen bir yöntemdir. Bu yönteme göre iki çeşit yüz görüntüsü varyasyonu vardır: intrapersonal (kişinin içinde gelişen) ve extrapersonal (kişinin dışında gelişen). Yüzler arasındaki benzerlik Bayesian kuralına göre ölçülmektedir.  
+
+
+**SVM** (Support Vector Machine) yöntemi verilen noktaları destek vektörleri ile ifade eder ve aynı sınıfa ait noktaları bir bölümde tutacak bir hiperbol çizmeye çalışır. PCA yöntemiyle özellik çıkarımı yapıldıktan sonra SVM yöntemiyle görüntü ikilieri arasındaki farklar araştırılır. Yani veri tabanındaki görüntülere ait vektörler ile alınan örnek vektörleri karşılaştırılır.  SVM yöntemiyle resimde işaretlenen belirli noktaların takibi de yapılabilir. Kamera karşısında bulunan bir insanın yüzünü göz-ağız gibi bölgelere ayırarak bunların takibini yapan SVM yöntemiyle insanın ruh halini gösteren bir videoyu <a href="http://www.youtube.com/watch?v=V25qu1xpJOc" target="_blank">izleyebilirsiniz</a>.
 
 <p style="text-align: center;">
-  <a href="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/13.jpg"><img class="size-full wp-image-101 aligncenter" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/13.jpg" alt="" width="293" height="191" /></a>
+  ![Support Vector Machine](/assets/images/biyometri/13.jpg)
 </p>
 
 <p style="text-align: center;">
@@ -222,7 +229,7 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   </p>
   
   <p style="text-align: center;">
-    <a href="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/14.jpg"><img class="size-full wp-image-101 aligncenter" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/14.jpg" alt="" width="215" height="182" /></a>
+  ![Hidden Markov Models](/assets/images/biyometri/14.jpg)
   </p>
   
   <p>
@@ -277,7 +284,8 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   </p>
   
   <p>
-    İris tanımada ilk adım göz resminden iris bölgesinin bulunmasıdır. Bunun için iris şeklinden yararlanılabilineceği gibi göz bebeğinin siyah renginden de yararlanılıp histogramdan da bu bölge çıkarılabilir. Ayrıca sobel kenar algılama algoritması ile kenarlar bulunup ‘circle detection’ algoritmalarıyla da göz bebeği ve iris bulunabilir. Göz kapağının tamamen açık olmadığı durumlarla da karşılaşılabileceği için önce göz bebeği ardından irisin bulunması daha iyi sonuçlar vercektir.<br /> <a href="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/15.jpg"><img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/15.jpg" alt="" /></a>
+    İris tanımada ilk adım göz resminden iris bölgesinin bulunmasıdır. Bunun için iris şeklinden yararlanılabilineceği gibi göz bebeğinin siyah renginden de yararlanılıp histogramdan da bu bölge çıkarılabilir. Ayrıca sobel kenar algılama algoritması ile kenarlar bulunup ‘circle detection’ algoritmalarıyla da göz bebeği ve iris bulunabilir. Göz kapağının tamamen açık olmadığı durumlarla da karşılaşılabileceği için önce göz bebeği ardından irisin bulunması daha iyi sonuçlar vercektir.<br />
+	![İris Tanıma](/assets/images/biyometri/15.jpg)
   </p>
   
   <p>
@@ -285,7 +293,8 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   </p>
   
   <p>
-    Bu yöntemlerden biri göz bebeğinin etrafından alınan parçalar üzerinde işlem yapmaktır. Tüm iris üzerinde işlem yapılmamasının bir diğer sebebi ise göz kapağının yarı kapalı olması ve kirpiklerin irisi örtmesidir. İris üzerinden göz bebeğine bitişik yerlerden belirli sayıda parça alınarak bu karşılaştırma yapılabilir.<br /> <a href="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/16.jpg"><img class="size-full wp-image-101" title="turler" src="http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/16.jpg" alt="" /></a>
+    Bu yöntemlerden biri göz bebeğinin etrafından alınan parçalar üzerinde işlem yapmaktır. Tüm iris üzerinde işlem yapılmamasının bir diğer sebebi ise göz kapağının yarı kapalı olması ve kirpiklerin irisi örtmesidir. İris üzerinden göz bebeğine bitişik yerlerden belirli sayıda parça alınarak bu karşılaştırma yapılabilir.
+	![İris Tanıma](/assets/images/biyometri/16.jpg)
   </p>
   
   <p>
@@ -386,16 +395,3 @@ Bu adımdan sonra değişik yollar izlenerek yüz tanıma işlemi yapılabilir. 
   <p>
     Bu tip sistemler insanların tamamen kayıt altına aldığı için bu tip verilerin saklandığı veritabanlarının güvenliği en üst düzeyde olmalıdır. Ayırca sahte kimlik veya kredi kartı gibi olayların da önüne geçilmesi için mükemmele yakın bir çözüm üretmektedir. Yeterince yaygın kullanıma eriştiği zaman suç oranında etkisi hissedilir şekilde düşüşler yaşanacağı kesindir.
   </p>
-
- [1]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/turler.jpg
- [2]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/1.jpg
- [3]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/2.jpg
- [4]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/3.jpg
- [5]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/4.jpg
- [6]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/5.jpg
- [7]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/6.jpg
- [8]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/7.jpg
- [9]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/8.jpg
- [10]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/9.jpg
- [11]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/10.jpg
- [12]: http://www.ahmetkakici.com/wp-content/uploads/2008/12/biyometri/12.jpg
