@@ -84,7 +84,7 @@ Galton ve Henry’nin çalışmaları sonucunda ortaya çıkan sınıflar çizgi
 
   * Yay (arch)
   * Döngü (loop)
-  * Helezon (whorl) 
+  * Helezon (whorl)
 
 	<br>
 	![Parmak İzi Türleri](/assets/images/biyometri/turler.jpg)
@@ -93,34 +93,34 @@ Daha detaylı işlemler için bu sınıflarda alt sınılara bölünmektedir.
 
 Bu sınıflandırmaların yanı sıra parmak izlerine çizgi bazında bakıldığında belirli özelliklere sahip noktalar ortaya çıkmaktadır.
 
-  * Eni boyuna neredeyse eşit olan çizgiler nokta (ridge dots) olarak alandırılır
+  * Eni boyuna neredeyse eşit olan çizgiler nokta (ridge dots) olarak alandırılır <br>
   ![Ridge dots](/assets/images/biyometri/1.jpg)
 
-  * Noktalardan daha uzun olan ve değişken boyutlu çizgilerde vardır ve ada (island) olarak adlandırılır
+  * Noktalardan daha uzun olan ve değişken boyutlu çizgilerde vardır ve ada (island) olarak adlandırılır <br>
 	![Island](/assets/images/biyometri/2.jpg)
 
-  * Bir çizginin bölünüp birden çok çizgiye ayrılıdığı noktalar çatal (bifurcation) olarak adlandırılır
+  * Bir çizginin bölünüp birden çok çizgiye ayrılıdığı noktalar çatal (bifurcation) olarak adlandırılır <br>
 	![Bifurcation](/assets/images/biyometri/3.jpg)
 
-  * Karşılıklı çatal (opposed bifurcation)  
+  * Karşılıklı çatal (opposed bifurcation)<br>
 	![Opposed Bifurcation](/assets/images/biyometri/4.jpg)
 
-  * İkili Çatal (double bifurcation)  
+  * İkili Çatal (double bifurcation)<br>
 	![Double Bifurcation](/assets/images/biyometri/5.jpg)
 
-  * Üçlü Çatal (trifurcation)
+  * Üçlü Çatal (trifurcation)<br>
 	![Trifurcation](/assets/images/biyometri/6.jpg)
 
-  * Çizgilerin bitiş noktalarıda özel olarak ele alınır  
+  * Çizgilerin bitiş noktalarıda özel olarak ele alınır<br>
 	![Parmak İzi](/assets/images/biyometri/7.jpg)
   
-  * Birden fazla çizginin kesiştiği noktalarda özel olarak ele alınır  
+  * Birden fazla çizginin kesiştiği noktalarda özel olarak ele alınır<br>
 	![Parmak İzi](/assets/images/biyometri/8.jpg)
     
-  * Bir çizginin çatallaşıp kısa bir mesafe sonra tekrar birleşmesi sonucunda oluşan kapalı yapıya göl (lake) adı verilir.  
+  * Bir çizginin çatallaşıp kısa bir mesafe sonra tekrar birleşmesi sonucunda oluşan kapalı yapıya göl (lake) adı verilir.<br>
 	![Parmak İzi](/assets/images/biyometri/9.jpg)
 	
-  * Paralel giden iki çizgiyi birleştiren kısa çizgilere de köprü (bridge) adı verilir.  
+  * Paralel giden iki çizgiyi birleştiren kısa çizgilere de köprü (bridge) adı verilir<br>
     ![Parmak İzi](/assets/images/biyometri/10.jpg)
 
 Parmak izi tanıma işlemi korelasyon yöntemiyle yapıldığı gibi yukarıda belirtilen özel noktaların yer ve sırasına göre de yapılabilir. İkinci işlem için graf yapısı oluşturulmalıdır. Korelasyon işleminin doğru sonuç verebilmesi yön bilgisine de bağlı olduğundan örnek alınırken buna dikkat edilmelidir.
@@ -170,13 +170,13 @@ Kenar algılama filtreleri olarak sobel, gradient, prewitt gibi filtrelerl kulla
   * HMM
   * Boosting & Ensemble
 
-<p style="text-align: center;">
-![Eigen Face - Örnek](/assets/images/biyometri/11.jpg)
-</p>
 
 <p style="text-align: center;">
   ‘Eigenface’ örnekleri
 </p>
+
+![Eigen Face - Örnek](/assets/images/biyometri/11.jpg)
+
 
 <p style="text-align: left;">
   Yüz tanıma yöntemi kullanılarak 2000  yılında Meksika’da  yapılan seçimlerde birden fazla oy kullanılmasını engelleyecek bir sistem oluşturulmuştur. Ayrıca 2001 yılında ABD’de yapılan NFL (National Football League) finalinde 19 suçlu yakalanmıştır. ABD’de verilen ehliyet, kimlik gibi belgelerde bir kişinin farklı adlarla kayıt yaptırmaması amacıyla yüz tanıma sistemi kullanılmaktadır.
