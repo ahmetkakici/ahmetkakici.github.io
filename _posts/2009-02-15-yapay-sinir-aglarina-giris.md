@@ -19,4 +19,4 @@ Bitirme ödevim için uğraşmaya başladığım ve tezimde de genişçe yer ay�
 
 <!--more-->
 
-Bu yazı https://yapayzeka.ai adresinde yayınlanmak üzere kaldırılmıştır.
+Yazıya <a href="https://yapayzeka.ai/yapay-sinir-aglarina-giris-1/">yapayzeka.ai</a> adresinden ulaşabilirsiniz.
