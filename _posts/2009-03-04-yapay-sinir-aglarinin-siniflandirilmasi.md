@@ -11,4 +11,4 @@ tags:
   - Yapay Sinir Aglari
 ---
 
-Yazıya <a href="https://yapayzeka.ai/yapay-sinir-aglarinin-katmanlari-ve-siniflandirilmasi/">yapayzeka.ai</a> adresinden ulaşabilirsiniz.
+Yazıya <a href="https://yapayzeka.ai/yapay-sinir-aglarinin-katmanlari-ve-siniflandirilmasi-3/">yapayzeka.ai</a> adresinden ulaşabilirsiniz.
